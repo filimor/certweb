@@ -37,6 +37,7 @@
             this.btnPainel = new System.Windows.Forms.Button();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.sobre1 = new Certweb.Sobre();
             this.pnlEsquerdo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
@@ -47,7 +48,7 @@
             this.pnlSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSuperior.Location = new System.Drawing.Point(0, 0);
             this.pnlSuperior.Name = "pnlSuperior";
-            this.pnlSuperior.Size = new System.Drawing.Size(800, 15);
+            this.pnlSuperior.Size = new System.Drawing.Size(982, 15);
             this.pnlSuperior.TabIndex = 0;
             // 
             // pnlEsquerdo
@@ -60,7 +61,7 @@
             this.pnlEsquerdo.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlEsquerdo.Location = new System.Drawing.Point(0, 15);
             this.pnlEsquerdo.Name = "pnlEsquerdo";
-            this.pnlEsquerdo.Size = new System.Drawing.Size(229, 435);
+            this.pnlEsquerdo.Size = new System.Drawing.Size(229, 593);
             this.pnlEsquerdo.TabIndex = 1;
             // 
             // btnSobre
@@ -71,7 +72,7 @@
             this.btnSobre.ForeColor = System.Drawing.Color.White;
             this.btnSobre.Image = ((System.Drawing.Image)(resources.GetObject("btnSobre.Image")));
             this.btnSobre.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSobre.Location = new System.Drawing.Point(38, 344);
+            this.btnSobre.Location = new System.Drawing.Point(38, 494);
             this.btnSobre.Name = "btnSobre";
             this.btnSobre.Size = new System.Drawing.Size(161, 54);
             this.btnSobre.TabIndex = 3;
@@ -87,7 +88,7 @@
             this.btnLink.ForeColor = System.Drawing.Color.White;
             this.btnLink.Image = ((System.Drawing.Image)(resources.GetObject("btnLink.Image")));
             this.btnLink.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLink.Location = new System.Drawing.Point(38, 240);
+            this.btnLink.Location = new System.Drawing.Point(38, 340);
             this.btnLink.Name = "btnLink";
             this.btnLink.Size = new System.Drawing.Size(161, 54);
             this.btnLink.TabIndex = 2;
@@ -103,7 +104,7 @@
             this.btnTarefas.ForeColor = System.Drawing.Color.White;
             this.btnTarefas.Image = ((System.Drawing.Image)(resources.GetObject("btnTarefas.Image")));
             this.btnTarefas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTarefas.Location = new System.Drawing.Point(38, 136);
+            this.btnTarefas.Location = new System.Drawing.Point(38, 186);
             this.btnTarefas.Name = "btnTarefas";
             this.btnTarefas.Size = new System.Drawing.Size(161, 54);
             this.btnTarefas.TabIndex = 1;
@@ -142,7 +143,7 @@
             this.btnFechar.FlatAppearance.BorderSize = 0;
             this.btnFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFechar.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFechar.Location = new System.Drawing.Point(759, 21);
+            this.btnFechar.Location = new System.Drawing.Point(941, 21);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(29, 28);
             this.btnFechar.TabIndex = 3;
@@ -150,12 +151,21 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.BtnFechar_Click);
             // 
+            // sobre1
+            // 
+            this.sobre1.BackColor = System.Drawing.Color.White;
+            this.sobre1.Location = new System.Drawing.Point(0, 0);
+            this.sobre1.Name = "sobre1";
+            this.sobre1.Size = new System.Drawing.Size(652, 411);
+            this.sobre1.TabIndex = 4;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(982, 608);
+            this.Controls.Add(this.sobre1);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.pnlEsquerdo);
             this.Controls.Add(this.pnlSuperior);
@@ -179,6 +189,7 @@
         private System.Windows.Forms.Button btnPainel;
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.Button btnFechar;
+        private Sobre sobre1;
     }
 }
 
