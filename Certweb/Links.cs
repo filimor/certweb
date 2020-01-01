@@ -18,12 +18,14 @@ namespace Certweb
         {
             var fonte = new Font("Century Gothic", 8);
             List<Link> listaLinks = GerenciadorDeLinks.LerLinks();
+            flpLinks.Controls.Clear();
+
             foreach (Link link in listaLinks)
             {
                 var flpLinha = new FlowLayoutPanel
                 {
                     FlowDirection = FlowDirection.LeftToRight,
-                    Size = new Size(flpLinks.Width, 40)
+                    Size = new Size(flpLinks.Width, 20)
                 };
 
                 var txtDescricao = new Label
@@ -57,7 +59,28 @@ namespace Certweb
                 flpLinha.Controls.Add(llbExcluir);
 
                 flpLinks.Controls.Add(flpLinha);
+
+                llbEditar.Click += delegate
+                {
+                    EditarAction(link);
+                };
+
+                llbExcluir.Click += delegate
+                {
+                    ExcluirAction(link);
+                };
             }
+        }
+
+        private void EditarAction(Link link)
+        {
+
+        }
+
+        private void ExcluirAction(Link link)
+        {
+            GerenciadorDeLinks.RemoverLink(link);
+            CarregarLinks();
         }
 
         private void BtnSalvar_Click(object sender, System.EventArgs e)
@@ -65,6 +88,7 @@ namespace Certweb
             GerenciadorDeLinks.AdicionarLink(new Link(txtDescricao.Text, txtLink.Text));
             txtDescricao.Clear();
             txtLink.Clear();
+            CarregarLinks();
         }
     }
 }
