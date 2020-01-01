@@ -49,7 +49,7 @@
             this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalvar.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(627, 160);
+            this.btnSalvar.Location = new System.Drawing.Point(627, 68);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(88, 33);
             this.btnSalvar.TabIndex = 0;
@@ -59,7 +59,7 @@
             // txtDescricao
             // 
             this.txtDescricao.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescricao.Location = new System.Drawing.Point(17, 107);
+            this.txtDescricao.Location = new System.Drawing.Point(17, 15);
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(300, 37);
             this.txtDescricao.TabIndex = 1;
@@ -68,7 +68,7 @@
             // txtLink
             // 
             this.txtLink.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLink.Location = new System.Drawing.Point(323, 107);
+            this.txtLink.Location = new System.Drawing.Point(323, 15);
             this.txtLink.Name = "txtLink";
             this.txtLink.Size = new System.Drawing.Size(392, 37);
             this.txtLink.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             this.lblLinks.AutoSize = true;
             this.lblLinks.Font = new System.Drawing.Font("Century Gothic", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLinks.Location = new System.Drawing.Point(4, 149);
+            this.lblLinks.Location = new System.Drawing.Point(4, 102);
             this.lblLinks.Name = "lblLinks";
             this.lblLinks.Size = new System.Drawing.Size(173, 78);
             this.lblLinks.TabIndex = 3;
@@ -88,9 +88,9 @@
             // 
             this.flowLayoutPanel1.Controls.Add(this.panel1);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(17, 236);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(17, 183);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(698, 228);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(698, 281);
             this.flowLayoutPanel1.TabIndex = 4;
             // 
             // panel1

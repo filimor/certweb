@@ -43,9 +43,9 @@
             // 
             this.flowLayoutPanel1.Controls.Add(this.panel1);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(16, 184);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(16, 91);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(507, 272);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(507, 365);
             this.flowLayoutPanel1.TabIndex = 6;
             // 
             // panel1
@@ -83,7 +83,7 @@
             // 
             this.lblLinks.AutoSize = true;
             this.lblLinks.Font = new System.Drawing.Font("Century Gothic", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLinks.Location = new System.Drawing.Point(3, 93);
+            this.lblLinks.Location = new System.Drawing.Point(3, 10);
             this.lblLinks.Name = "lblLinks";
             this.lblLinks.Size = new System.Drawing.Size(173, 78);
             this.lblLinks.TabIndex = 5;

@@ -46,7 +46,7 @@
             // 
             this.lblQuantidade.AutoSize = true;
             this.lblQuantidade.Font = new System.Drawing.Font("Century Gothic", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuantidade.Location = new System.Drawing.Point(193, 19);
+            this.lblQuantidade.Location = new System.Drawing.Point(193, 3);
             this.lblQuantidade.Name = "lblQuantidade";
             this.lblQuantidade.Size = new System.Drawing.Size(68, 78);
             this.lblQuantidade.TabIndex = 0;
@@ -57,7 +57,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(84)))), ((int)(((byte)(84)))));
-            this.label2.Location = new System.Drawing.Point(181, 95);
+            this.label2.Location = new System.Drawing.Point(181, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 20);
             this.label2.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(135)))), ((int)(((byte)(135)))));
-            this.label3.Location = new System.Drawing.Point(211, 115);
+            this.label3.Location = new System.Drawing.Point(211, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(32, 13);
             this.label3.TabIndex = 2;
@@ -185,7 +185,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblQuantidade);
             this.Name = "Painel";
-            this.Size = new System.Drawing.Size(735, 477);
+            this.Size = new System.Drawing.Size(735, 757);
             this.ResumeLayout(false);
             this.PerformLayout();
 
