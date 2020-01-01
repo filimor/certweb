@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Certweb.Services;
 
 namespace Certweb
 {
@@ -14,6 +15,7 @@ namespace Certweb
     {
         public FormMain()
         {
+            GerenciadorDeLinks.LerLinks();
             InitializeComponent();
             SelecionarPainel(pnPainel);
         }
@@ -36,6 +38,7 @@ namespace Certweb
 
         private void BtnFechar_Click(object sender, EventArgs e)
         {
+            GerenciadorDeLinks.SalvarLinks();
             Application.Exit();
         }
 
