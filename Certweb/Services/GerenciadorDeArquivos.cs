@@ -3,11 +3,11 @@ using System.IO;
 
 namespace Certweb.Services
 {
-    public class GerenciadorDeArquivos
+    public static class GerenciadorDeArquivos
     {
-        private readonly string _diretorioProjeto = AppDomain.CurrentDomain.BaseDirectory;
+        private static readonly string _diretorioProjeto = AppDomain.CurrentDomain.BaseDirectory;
 
-        public string Ler(string arquivo)
+        public static string Ler(string arquivo)
         {
             string caminho = $@"{_diretorioProjeto}\{arquivo}";
 
@@ -24,7 +24,7 @@ namespace Certweb.Services
             }
         }
 
-        public void Escrever(string arquivo, string conteudo)
+        public static void Escrever(string arquivo, string conteudo)
         {
             string caminho = $@"{_diretorioProjeto}\{arquivo}";
 
