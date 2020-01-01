@@ -43,9 +43,9 @@
             // 
             this.flowLayoutPanel1.Controls.Add(this.panel1);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(16, 93);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(16, 184);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(507, 363);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(507, 272);
             this.flowLayoutPanel1.TabIndex = 6;
             // 
             // panel1
@@ -83,7 +83,7 @@
             // 
             this.lblLinks.AutoSize = true;
             this.lblLinks.Font = new System.Drawing.Font("Century Gothic", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLinks.Location = new System.Drawing.Point(3, 12);
+            this.lblLinks.Location = new System.Drawing.Point(3, 93);
             this.lblLinks.Name = "lblLinks";
             this.lblLinks.Size = new System.Drawing.Size(173, 78);
             this.lblLinks.TabIndex = 5;
@@ -95,7 +95,7 @@
             this.btnExecutar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnExecutar.FlatAppearance.BorderSize = 0;
             this.btnExecutar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExecutar.Location = new System.Drawing.Point(554, 93);
+            this.btnExecutar.Location = new System.Drawing.Point(554, 184);
             this.btnExecutar.Name = "btnExecutar";
             this.btnExecutar.Size = new System.Drawing.Size(157, 151);
             this.btnExecutar.TabIndex = 7;

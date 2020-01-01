@@ -43,7 +43,7 @@
             // 
             this.lblSobre.AutoSize = true;
             this.lblSobre.Font = new System.Drawing.Font("Century Gothic", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSobre.Location = new System.Drawing.Point(19, 21);
+            this.lblSobre.Location = new System.Drawing.Point(19, 112);
             this.lblSobre.Name = "lblSobre";
             this.lblSobre.Size = new System.Drawing.Size(212, 78);
             this.lblSobre.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             this.lblParticipacao.AutoSize = true;
             this.lblParticipacao.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblParticipacao.Location = new System.Drawing.Point(371, 52);
+            this.lblParticipacao.Location = new System.Drawing.Point(371, 143);
             this.lblParticipacao.Name = "lblParticipacao";
             this.lblParticipacao.Size = new System.Drawing.Size(241, 42);
             this.lblParticipacao.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             this.lblDescricao.AutoSize = true;
             this.lblDescricao.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescricao.Location = new System.Drawing.Point(29, 140);
+            this.lblDescricao.Location = new System.Drawing.Point(29, 231);
             this.lblDescricao.Name = "lblDescricao";
             this.lblDescricao.Size = new System.Drawing.Size(226, 16);
             this.lblDescricao.TabIndex = 2;
@@ -73,7 +73,7 @@
             // 
             this.lblAutor.AutoSize = true;
             this.lblAutor.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutor.Location = new System.Drawing.Point(375, 128);
+            this.lblAutor.Location = new System.Drawing.Point(375, 219);
             this.lblAutor.Name = "lblAutor";
             this.lblAutor.Size = new System.Drawing.Size(39, 15);
             this.lblAutor.TabIndex = 3;
@@ -83,7 +83,7 @@
             // 
             this.lblAutorNome.AutoSize = true;
             this.lblAutorNome.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutorNome.Location = new System.Drawing.Point(375, 143);
+            this.lblAutorNome.Location = new System.Drawing.Point(375, 234);
             this.lblAutorNome.Name = "lblAutorNome";
             this.lblAutorNome.Size = new System.Drawing.Size(78, 16);
             this.lblAutorNome.TabIndex = 4;
@@ -93,7 +93,7 @@
             // 
             this.lblAutorEmail.AutoSize = true;
             this.lblAutorEmail.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutorEmail.Location = new System.Drawing.Point(375, 159);
+            this.lblAutorEmail.Location = new System.Drawing.Point(375, 250);
             this.lblAutorEmail.Name = "lblAutorEmail";
             this.lblAutorEmail.Size = new System.Drawing.Size(125, 16);
             this.lblAutorEmail.TabIndex = 5;
@@ -103,7 +103,7 @@
             // 
             this.lblIcones.AutoSize = true;
             this.lblIcones.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIcones.Location = new System.Drawing.Point(375, 196);
+            this.lblIcones.Location = new System.Drawing.Point(375, 287);
             this.lblIcones.Name = "lblIcones";
             this.lblIcones.Size = new System.Drawing.Size(66, 15);
             this.lblIcones.TabIndex = 6;
@@ -113,7 +113,7 @@
             // 
             this.lblIconesAutor.AutoSize = true;
             this.lblIconesAutor.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIconesAutor.Location = new System.Drawing.Point(375, 211);
+            this.lblIconesAutor.Location = new System.Drawing.Point(375, 302);
             this.lblIconesAutor.Name = "lblIconesAutor";
             this.lblIconesAutor.Size = new System.Drawing.Size(113, 16);
             this.lblIconesAutor.TabIndex = 7;
@@ -122,7 +122,7 @@
             // llbIconesLink
             // 
             this.llbIconesLink.AutoSize = true;
-            this.llbIconesLink.Location = new System.Drawing.Point(375, 227);
+            this.llbIconesLink.Location = new System.Drawing.Point(375, 318);
             this.llbIconesLink.Name = "llbIconesLink";
             this.llbIconesLink.Size = new System.Drawing.Size(221, 13);
             this.llbIconesLink.TabIndex = 8;
