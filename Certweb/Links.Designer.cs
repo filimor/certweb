@@ -53,20 +53,26 @@
             // txtDescricao
             // 
             this.txtDescricao.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescricao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
             this.txtDescricao.Location = new System.Drawing.Point(17, 15);
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(300, 37);
             this.txtDescricao.TabIndex = 1;
             this.txtDescricao.Text = "Descrição";
+            this.txtDescricao.Enter += new System.EventHandler(this.TxtDescricao_Enter);
+            this.txtDescricao.Leave += new System.EventHandler(this.TxtDescricao_Leave);
             // 
             // txtLink
             // 
             this.txtLink.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLink.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
             this.txtLink.Location = new System.Drawing.Point(323, 15);
             this.txtLink.Name = "txtLink";
             this.txtLink.Size = new System.Drawing.Size(392, 37);
             this.txtLink.TabIndex = 2;
             this.txtLink.Text = "Link";
+            this.txtLink.Enter += new System.EventHandler(this.TxtLink_Enter);
+            this.txtLink.Leave += new System.EventHandler(this.TxtLink_Leave);
             // 
             // lblLinks
             // 
@@ -80,6 +86,7 @@
             // 
             // flpLinks
             // 
+            this.flpLinks.AutoScroll = true;
             this.flpLinks.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flpLinks.Location = new System.Drawing.Point(17, 183);
             this.flpLinks.Name = "flpLinks";

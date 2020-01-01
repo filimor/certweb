@@ -20,8 +20,8 @@ namespace Certweb.Services
             }
             else
             {
-                //return null;
-                return string.Empty;
+                return null;
+                //return string.Empty;
             }
         }
 

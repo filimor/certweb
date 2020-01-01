@@ -8,6 +8,8 @@ namespace Certweb
 {
     public partial class Links : UserControl
     {
+        private Link LinkEmEdicao { get; set; }
+
         public Links()
         {
             InitializeComponent();
@@ -74,7 +76,9 @@ namespace Certweb
 
         private void EditarAction(Link link)
         {
-
+            LinkEmEdicao = link;
+            txtDescricao.Text = link.Descricao;
+            txtLink.Text = link.Url;
         }
 
         private void ExcluirAction(Link link)
@@ -85,10 +89,55 @@ namespace Certweb
 
         private void BtnSalvar_Click(object sender, System.EventArgs e)
         {
-            GerenciadorDeLinks.AdicionarLink(new Link(txtDescricao.Text, txtLink.Text));
+            if(LinkEmEdicao is null)
+            {
+                GerenciadorDeLinks.AdicionarLink(new Link(txtDescricao.Text, txtLink.Text));
+            }
+            else
+            {
+                LinkEmEdicao.Descricao = txtDescricao.Text;
+                LinkEmEdicao.Url = txtLink.Text;
+            }
+
             txtDescricao.Clear();
             txtLink.Clear();
             CarregarLinks();
+        }
+
+        private void TxtDescricao_Enter(object sender, System.EventArgs e)
+        {
+            if(txtDescricao.Text == "Descrição")
+            {
+                txtDescricao.Clear();
+                txtDescricao.ForeColor = Color.Black;
+            }
+        }
+
+        private void TxtDescricao_Leave(object sender, System.EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtDescricao.Text))
+            {
+                txtDescricao.Text = "Descrição";
+                txtDescricao.ForeColor = Color.FromArgb(68,68,68);
+            }
+        }
+
+        private void TxtLink_Enter(object sender, System.EventArgs e)
+        {
+            if (txtLink.Text == "Link")
+            {
+                txtLink.Clear();
+                txtLink.ForeColor = Color.Black;
+            }
+        }
+
+        private void TxtLink_Leave(object sender, System.EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtLink.Text))
+            {
+                txtLink.Text = "Link";
+                txtLink.ForeColor = Color.FromArgb(68, 68, 68);
+            }
         }
     }
 }
