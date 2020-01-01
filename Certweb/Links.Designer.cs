@@ -34,10 +34,10 @@
             this.lblLinks = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblDescricao = new System.Windows.Forms.Label();
-            this.llbExcluir = new System.Windows.Forms.LinkLabel();
-            this.llbEditar = new System.Windows.Forms.LinkLabel();
             this.lblLink = new System.Windows.Forms.Label();
+            this.llbEditar = new System.Windows.Forms.LinkLabel();
+            this.llbExcluir = new System.Windows.Forms.LinkLabel();
+            this.lblDescricao = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -104,30 +104,16 @@
             this.panel1.Size = new System.Drawing.Size(695, 20);
             this.panel1.TabIndex = 5;
             // 
-            // lblDescricao
+            // lblLink
             // 
-            this.lblDescricao.AutoSize = true;
-            this.lblDescricao.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblDescricao.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescricao.Location = new System.Drawing.Point(0, 0);
-            this.lblDescricao.Name = "lblDescricao";
-            this.lblDescricao.Size = new System.Drawing.Size(140, 16);
-            this.lblDescricao.TabIndex = 0;
-            this.lblDescricao.Text = "Curso de Windows Forms";
-            // 
-            // llbExcluir
-            // 
-            this.llbExcluir.AutoSize = true;
-            this.llbExcluir.Dock = System.Windows.Forms.DockStyle.Right;
-            this.llbExcluir.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llbExcluir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.llbExcluir.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.llbExcluir.Location = new System.Drawing.Point(635, 0);
-            this.llbExcluir.Name = "llbExcluir";
-            this.llbExcluir.Size = new System.Drawing.Size(60, 16);
-            this.llbExcluir.TabIndex = 1;
-            this.llbExcluir.TabStop = true;
-            this.llbExcluir.Text = "linkLabel1";
+            this.lblLink.AutoSize = true;
+            this.lblLink.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblLink.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.lblLink.Location = new System.Drawing.Point(140, 0);
+            this.lblLink.Name = "lblLink";
+            this.lblLink.Size = new System.Drawing.Size(204, 13);
+            this.lblLink.TabIndex = 3;
+            this.lblLink.Text = "http://www.cursodewindowsforms.com.br";
             // 
             // llbEditar
             // 
@@ -143,16 +129,30 @@
             this.llbEditar.TabStop = true;
             this.llbEditar.Text = "linkLabel2";
             // 
-            // lblLink
+            // llbExcluir
             // 
-            this.lblLink.AutoSize = true;
-            this.lblLink.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblLink.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.lblLink.Location = new System.Drawing.Point(140, 0);
-            this.lblLink.Name = "lblLink";
-            this.lblLink.Size = new System.Drawing.Size(204, 13);
-            this.lblLink.TabIndex = 3;
-            this.lblLink.Text = "http://www.cursodewindowsforms.com.br";
+            this.llbExcluir.AutoSize = true;
+            this.llbExcluir.Dock = System.Windows.Forms.DockStyle.Right;
+            this.llbExcluir.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.llbExcluir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.llbExcluir.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.llbExcluir.Location = new System.Drawing.Point(635, 0);
+            this.llbExcluir.Name = "llbExcluir";
+            this.llbExcluir.Size = new System.Drawing.Size(60, 16);
+            this.llbExcluir.TabIndex = 1;
+            this.llbExcluir.TabStop = true;
+            this.llbExcluir.Text = "linkLabel1";
+            // 
+            // lblDescricao
+            // 
+            this.lblDescricao.AutoSize = true;
+            this.lblDescricao.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblDescricao.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescricao.Location = new System.Drawing.Point(0, 0);
+            this.lblDescricao.Name = "lblDescricao";
+            this.lblDescricao.Size = new System.Drawing.Size(140, 16);
+            this.lblDescricao.TabIndex = 0;
+            this.lblDescricao.Text = "Curso de Windows Forms";
             // 
             // Links
             // 

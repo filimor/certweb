@@ -66,6 +66,12 @@
     <Compile Include="Sobre.Designer.cs">
       <DependentUpon>Sobre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tarefas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tarefas.Designer.cs">
+      <DependentUpon>Tarefas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +89,9 @@
     </Compile>
     <EmbeddedResource Include="Sobre.resx">
       <DependentUpon>Sobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarefas.resx">
+      <DependentUpon>Tarefas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
