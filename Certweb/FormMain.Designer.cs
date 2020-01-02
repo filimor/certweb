@@ -35,13 +35,13 @@
             this.btnLink = new System.Windows.Forms.Button();
             this.btnTarefas = new System.Windows.Forms.Button();
             this.btnPainel = new System.Windows.Forms.Button();
+            this.pnlIndicador = new System.Windows.Forms.Panel();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnFechar = new System.Windows.Forms.Button();
-            this.pnSobre = new Certweb.Sobre();
-            this.pnLinks = new Certweb.Links();
+            this.pnSobre = new Certweb.Sobre();           
             this.pnTarefas = new Certweb.Tarefas();
+            this.pnLinks = new Certweb.Links(pnTarefas);
             this.pnPainel = new Certweb.Painel();
-            this.pnlIndicador = new System.Windows.Forms.Panel();
             this.pnlEsquerdo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
@@ -54,6 +54,9 @@
             this.pnlSuperior.Name = "pnlSuperior";
             this.pnlSuperior.Size = new System.Drawing.Size(982, 15);
             this.pnlSuperior.TabIndex = 0;
+            this.pnlSuperior.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PnlSuperior_MouseDown);
+            this.pnlSuperior.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PnlSuperior_MouseMove);
+            this.pnlSuperior.MouseUp += new System.Windows.Forms.MouseEventHandler(this.PnlSuperior_MouseUp);
             // 
             // pnlEsquerdo
             // 
@@ -137,6 +140,14 @@
             this.btnPainel.UseVisualStyleBackColor = true;
             this.btnPainel.Click += new System.EventHandler(this.BtnPainel_Click);
             // 
+            // pnlIndicador
+            // 
+            this.pnlIndicador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.pnlIndicador.Location = new System.Drawing.Point(21, 17);
+            this.pnlIndicador.Name = "pnlIndicador";
+            this.pnlIndicador.Size = new System.Drawing.Size(11, 81);
+            this.pnlIndicador.TabIndex = 4;
+            // 
             // picLogo
             // 
             this.picLogo.Image = ((System.Drawing.Image)(resources.GetObject("picLogo.Image")));
@@ -168,14 +179,6 @@
             this.pnSobre.Size = new System.Drawing.Size(735, 477);
             this.pnSobre.TabIndex = 5;
             // 
-            // pnLinks
-            // 
-            this.pnLinks.BackColor = System.Drawing.Color.White;
-            this.pnLinks.Location = new System.Drawing.Point(235, 119);
-            this.pnLinks.Name = "pnLinks";
-            this.pnLinks.Size = new System.Drawing.Size(735, 477);
-            this.pnLinks.TabIndex = 6;
-            // 
             // pnTarefas
             // 
             this.pnTarefas.BackColor = System.Drawing.Color.White;
@@ -191,14 +194,6 @@
             this.pnPainel.Name = "pnPainel";
             this.pnPainel.Size = new System.Drawing.Size(735, 575);
             this.pnPainel.TabIndex = 8;
-            // 
-            // pnlIndicador
-            // 
-            this.pnlIndicador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.pnlIndicador.Location = new System.Drawing.Point(21, 17);
-            this.pnlIndicador.Name = "pnlIndicador";
-            this.pnlIndicador.Size = new System.Drawing.Size(11, 81);
-            this.pnlIndicador.TabIndex = 4;
             // 
             // FormMain
             // 

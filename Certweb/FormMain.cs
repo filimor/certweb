@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using Certweb.Services;
+using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Certweb.Services;
 
 namespace Certweb
 {
     public partial class FormMain : Form
     {
+        private bool _botaoMousePressionado;
+        private Point _pontoInicialFormulario;
+        private Point _pontoInicialCursor;
+
         public FormMain()
         {
             GerenciadorDeLinks.LerLinks();
@@ -64,6 +62,27 @@ namespace Certweb
         {
             SelecionarPainel(pnSobre);
             MoverIndicador(sender);
+        }
+
+        private void PnlSuperior_MouseDown(object sender, MouseEventArgs e)
+        {
+            _botaoMousePressionado = true;
+            _pontoInicialFormulario = Location;
+            _pontoInicialCursor = Cursor.Position;
+        }
+
+        private void PnlSuperior_MouseUp(object sender, MouseEventArgs e)
+        {
+            _botaoMousePressionado = false;
+        }
+
+        private void PnlSuperior_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (_botaoMousePressionado)
+            {
+                var dif = Point.Subtract(Cursor.Position, new Size(_pontoInicialCursor));
+                Location = Point.Add(_pontoInicialFormulario, new Size(dif));
+            }
         }
     }
 }

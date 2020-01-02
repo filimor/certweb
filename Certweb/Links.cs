@@ -9,8 +9,9 @@ namespace Certweb
     public partial class Links : UserControl
     {
         private Link LinkEmEdicao { get; set; }
+        private readonly Tarefas _tarefas;
 
-        public Links()
+        public Links(Tarefas tarefas)
         {
             InitializeComponent();
             CarregarLinks();
@@ -18,15 +19,22 @@ namespace Certweb
 
         private void CarregarLinks()
         {
+            _tarefas.CarregarLinks();
             var fonte = new Font("Century Gothic", 8);
             List<Link> listaLinks = GerenciadorDeLinks.LerLinks();
             flpLinks.Controls.Clear();
+
+            if (listaLinks is null)
+            {
+                return;
+            }
 
             foreach (Link link in listaLinks)
             {
                 var flpLinha = new FlowLayoutPanel
                 {
                     FlowDirection = FlowDirection.LeftToRight,
+                    AutoSize = true,
                     Size = new Size(flpLinks.Width, 20)
                 };
 
@@ -89,7 +97,7 @@ namespace Certweb
 
         private void BtnSalvar_Click(object sender, System.EventArgs e)
         {
-            if(LinkEmEdicao is null)
+            if (LinkEmEdicao is null)
             {
                 GerenciadorDeLinks.AdicionarLink(new Link(txtDescricao.Text, txtLink.Text));
             }
@@ -99,14 +107,14 @@ namespace Certweb
                 LinkEmEdicao.Url = txtLink.Text;
             }
 
-            txtDescricao.Clear();
-            txtLink.Clear();
+            txtDescricao.Text = Resource.TXT_DESCRICAO;
+            txtLink.Text = Resource.TXT_LINK;
             CarregarLinks();
         }
 
         private void TxtDescricao_Enter(object sender, System.EventArgs e)
         {
-            if(txtDescricao.Text == "Descrição")
+            if (txtDescricao.Text == Resource.TXT_DESCRICAO)
             {
                 txtDescricao.Clear();
                 txtDescricao.ForeColor = Color.Black;
@@ -117,14 +125,14 @@ namespace Certweb
         {
             if (string.IsNullOrEmpty(txtDescricao.Text))
             {
-                txtDescricao.Text = "Descrição";
-                txtDescricao.ForeColor = Color.FromArgb(68,68,68);
+                txtDescricao.Text = Resource.TXT_DESCRICAO;
+                txtDescricao.ForeColor = Color.FromArgb(68, 68, 68);
             }
         }
 
         private void TxtLink_Enter(object sender, System.EventArgs e)
         {
-            if (txtLink.Text == "Link")
+            if (txtLink.Text == Resource.TXT_LINK)
             {
                 txtLink.Clear();
                 txtLink.ForeColor = Color.Black;
@@ -135,7 +143,7 @@ namespace Certweb
         {
             if (string.IsNullOrEmpty(txtLink.Text))
             {
-                txtLink.Text = "Link";
+                txtLink.Text = Resource.TXT_LINK;
                 txtLink.ForeColor = Color.FromArgb(68, 68, 68);
             }
         }
