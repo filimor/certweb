@@ -39,8 +39,8 @@
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnFechar = new System.Windows.Forms.Button();
             this.pnSobre = new Certweb.Sobre();           
-            this.pnTarefas = new Certweb.Tarefas();
-            this.pnLinks = new Certweb.Links(pnTarefas);
+            this.pnTarefas = new Certweb.Tarefas(pnPainel);
+            this.pnLinks = new Certweb.Links(pnTarefas,pnPainel);
             this.pnPainel = new Certweb.Painel();
             this.pnlEsquerdo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();

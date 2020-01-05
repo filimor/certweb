@@ -37,6 +37,7 @@ namespace Certweb
         private void BtnFechar_Click(object sender, EventArgs e)
         {
             GerenciadorDeLinks.SalvarLinks();
+            GerenciadorTelaPainel.SalvarDados(Painel.Modelo);
             Application.Exit();
         }
 

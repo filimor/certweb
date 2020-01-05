@@ -10,16 +10,21 @@ namespace Certweb
     {
         private Link LinkEmEdicao { get; set; }
         private readonly Tarefas _tarefas;
+        private readonly Painel _painel;
 
-        public Links(Tarefas tarefas)
+        public Links(Tarefas tarefas, Painel painel)
         {
             InitializeComponent();
+            _tarefas = tarefas;
+            _painel = painel;
             CarregarLinks();
         }
 
         private void CarregarLinks()
         {
             _tarefas.CarregarLinks();
+            _painel.QuantidadeLinks();
+
             var fonte = new Font("Century Gothic", 8);
             List<Link> listaLinks = GerenciadorDeLinks.LerLinks();
             flpLinks.Controls.Clear();

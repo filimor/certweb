@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Link.cs" />
+    <Compile Include="Entities\PainelModel.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +79,7 @@
     <Compile Include="Services\GerenciadorDeAcesso.cs" />
     <Compile Include="Services\GerenciadorDeArquivos.cs" />
     <Compile Include="Services\GerenciadorDeLinks.cs" />
+    <Compile Include="Services\GerenciadorTelaPainel.cs" />
     <Compile Include="Sobre.cs">
       <SubType>UserControl</SubType>
     </Compile>

@@ -1,16 +1,21 @@
-﻿using Certweb.Services;
+﻿using Certweb.Entities;
+using Certweb.Services;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
-using Certweb.Entities;
 
 namespace Certweb
 {
     public partial class Tarefas : UserControl
     {
-        public Tarefas()
+        private readonly Painel _painel;
+
+        public Tarefas(Painel painel)
         {
             InitializeComponent();
+            _painel = painel;
             CarregarLinks();
         }
 
@@ -54,10 +59,19 @@ namespace Certweb
 
         private void BtnExecutar_Click(object sender, System.EventArgs e)
         {
+            var sw = new Stopwatch();
+
+            sw.Start();
             foreach (Link link in GerenciadorDeLinks.LerLinks())
             {
                 GerenciadorDeAcesso.AcessarLink(link.Url);
             }
+            sw.Stop();
+
+            Painel.Modelo.TempoDecorrido = sw.Elapsed;
+            Painel.Modelo.UltimaExecucao = DateTime.Now;
+
+            _painel.AtualizarTextoTela();
             MessageBox.Show("Sucesso!");
         }
     }
