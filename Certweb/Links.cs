@@ -9,12 +9,16 @@ namespace Certweb
     public partial class Links : UserControl
     {
         private Link LinkEmEdicao { get; set; }
-        private readonly Tarefas _tarefas;
-        private readonly Painel _painel;
+        private Tarefas _tarefas;
+        private Painel _painel;
 
-        public Links(Tarefas tarefas, Painel painel)
+        public Links()
         {
             InitializeComponent();
+        }
+
+        public void SetPanels(Tarefas tarefas, Painel painel)
+        {
             _tarefas = tarefas;
             _painel = painel;
             CarregarLinks();

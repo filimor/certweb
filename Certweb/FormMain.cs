@@ -15,6 +15,8 @@ namespace Certweb
         {
             GerenciadorDeLinks.LerLinks();
             InitializeComponent();
+            pnTarefas.SetPanels(pnPainel);
+            pnLinks.SetPanels(pnTarefas, pnPainel);
             SelecionarPainel(pnPainel);
         }
 

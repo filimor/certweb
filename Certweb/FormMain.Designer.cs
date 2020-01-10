@@ -38,9 +38,9 @@
             this.pnlIndicador = new System.Windows.Forms.Panel();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnFechar = new System.Windows.Forms.Button();
-            this.pnSobre = new Certweb.Sobre();           
-            this.pnTarefas = new Certweb.Tarefas(pnPainel);
-            this.pnLinks = new Certweb.Links(pnTarefas,pnPainel);
+            this.pnSobre = new Certweb.Sobre();
+            this.pnTarefas = new Certweb.Tarefas();
+            this.pnLinks = new Certweb.Links();
             this.pnPainel = new Certweb.Painel();
             this.pnlEsquerdo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
@@ -187,6 +187,14 @@
             this.pnTarefas.Size = new System.Drawing.Size(735, 477);
             this.pnTarefas.TabIndex = 7;
             // 
+            // pnLinks
+            // 
+            this.pnLinks.BackColor = System.Drawing.Color.White;
+            this.pnLinks.Location = new System.Drawing.Point(235, 119);
+            this.pnLinks.Name = "pnLinks";
+            this.pnLinks.Size = new System.Drawing.Size(735, 477);
+            this.pnLinks.TabIndex = 9;
+            // 
             // pnPainel
             // 
             this.pnPainel.BackColor = System.Drawing.Color.White;
@@ -205,10 +213,10 @@
             this.Controls.Add(this.pnlEsquerdo);
             this.Controls.Add(this.pnlSuperior);
             this.Controls.Add(this.picLogo);
-            this.Controls.Add(this.pnPainel);
-            this.Controls.Add(this.pnSobre);
             this.Controls.Add(this.pnLinks);
             this.Controls.Add(this.pnTarefas);
+            this.Controls.Add(this.pnPainel);
+            this.Controls.Add(this.pnSobre);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMain";
             this.Text = "Form1";
