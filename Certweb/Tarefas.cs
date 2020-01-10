@@ -12,14 +12,16 @@ namespace Certweb
     public partial class Tarefas : UserControl
     {
         private Painel _painel;
+        private FormMain _form;
 
         public Tarefas()
         {
             InitializeComponent();
         }
 
-        public void SetPanels(Painel painel)
+        public void SetPanels(FormMain form, Painel painel)
         {
+            _form = form;
             _painel = painel;
             CarregarLinks();
         }
@@ -91,10 +93,12 @@ namespace Certweb
             {
                 Invoke(new Action(() => _painel.AtualizarTextoTela()));
             }
-            MessageBox.Show("Sucesso!");
+
+            _form.icnCertwebSystemTray.ShowBalloonTip(1000, "Certweb", "Tarefas realizadas com sucesso!", ToolTipIcon.Info);
+            // MessageBox.Show("Sucesso!");
         }
 
-        private void BtnExecutar_Click(object sender, System.EventArgs e)
+        public void BtnExecutar_Click(object sender, System.EventArgs e)
         {
             var th = new Thread(Executar)
             {

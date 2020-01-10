@@ -15,7 +15,7 @@ namespace Certweb
         {
             GerenciadorDeLinks.LerLinks();
             InitializeComponent();
-            pnTarefas.SetPanels(pnPainel);
+            pnTarefas.SetPanels(this, pnPainel);
             pnLinks.SetPanels(pnTarefas, pnPainel);
             SelecionarPainel(pnPainel);
         }
@@ -86,6 +86,11 @@ namespace Certweb
                 var dif = Point.Subtract(Cursor.Position, new Size(_pontoInicialCursor));
                 Location = Point.Add(_pontoInicialFormulario, new Size(dif));
             }
+        }
+
+        private void ExecutarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pnTarefas.BtnExecutar_Click(this, EventArgs.Empty);
         }
     }
 }

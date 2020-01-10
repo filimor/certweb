@@ -136,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ImgFinal\btnPlay.png" />
+    <Content Include="ImgFinal\Certweb.ico" />
     <Content Include="ImgFinal\ic_link.png" />
     <Content Include="ImgFinal\ic_painel.png" />
     <Content Include="ImgFinal\ic_sobre.png" />

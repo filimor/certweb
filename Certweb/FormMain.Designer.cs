@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.pnlSuperior = new System.Windows.Forms.Panel();
             this.pnlEsquerdo = new System.Windows.Forms.Panel();
@@ -38,12 +39,17 @@
             this.pnlIndicador = new System.Windows.Forms.Panel();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnFechar = new System.Windows.Forms.Button();
-            this.pnSobre = new Certweb.Sobre();
-            this.pnTarefas = new Certweb.Tarefas();
+            this.icnCertwebSystemTray = new System.Windows.Forms.NotifyIcon(this.components);
             this.pnLinks = new Certweb.Links();
+            this.pnTarefas = new Certweb.Tarefas();
             this.pnPainel = new Certweb.Painel();
+            this.pnSobre = new Certweb.Sobre();
+            this.cmsContentMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.executarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fecharToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlEsquerdo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
+            this.cmsContentMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlSuperior
@@ -171,21 +177,12 @@
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.BtnFechar_Click);
             // 
-            // pnSobre
+            // icnCertwebSystemTray
             // 
-            this.pnSobre.BackColor = System.Drawing.Color.White;
-            this.pnSobre.Location = new System.Drawing.Point(235, 119);
-            this.pnSobre.Name = "pnSobre";
-            this.pnSobre.Size = new System.Drawing.Size(735, 477);
-            this.pnSobre.TabIndex = 5;
-            // 
-            // pnTarefas
-            // 
-            this.pnTarefas.BackColor = System.Drawing.Color.White;
-            this.pnTarefas.Location = new System.Drawing.Point(235, 119);
-            this.pnTarefas.Name = "pnTarefas";
-            this.pnTarefas.Size = new System.Drawing.Size(735, 477);
-            this.pnTarefas.TabIndex = 7;
+            this.icnCertwebSystemTray.ContextMenuStrip = this.cmsContentMenu;
+            this.icnCertwebSystemTray.Icon = ((System.Drawing.Icon)(resources.GetObject("icnCertwebSystemTray.Icon")));
+            this.icnCertwebSystemTray.Text = "Certweb";
+            this.icnCertwebSystemTray.Visible = true;
             // 
             // pnLinks
             // 
@@ -195,6 +192,14 @@
             this.pnLinks.Size = new System.Drawing.Size(735, 477);
             this.pnLinks.TabIndex = 9;
             // 
+            // pnTarefas
+            // 
+            this.pnTarefas.BackColor = System.Drawing.Color.White;
+            this.pnTarefas.Location = new System.Drawing.Point(235, 119);
+            this.pnTarefas.Name = "pnTarefas";
+            this.pnTarefas.Size = new System.Drawing.Size(735, 477);
+            this.pnTarefas.TabIndex = 7;
+            // 
             // pnPainel
             // 
             this.pnPainel.BackColor = System.Drawing.Color.White;
@@ -202,6 +207,36 @@
             this.pnPainel.Name = "pnPainel";
             this.pnPainel.Size = new System.Drawing.Size(735, 575);
             this.pnPainel.TabIndex = 8;
+            // 
+            // pnSobre
+            // 
+            this.pnSobre.BackColor = System.Drawing.Color.White;
+            this.pnSobre.Location = new System.Drawing.Point(235, 119);
+            this.pnSobre.Name = "pnSobre";
+            this.pnSobre.Size = new System.Drawing.Size(735, 477);
+            this.pnSobre.TabIndex = 5;
+            // 
+            // cmsContentMenu
+            // 
+            this.cmsContentMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.executarToolStripMenuItem,
+            this.fecharToolStripMenuItem});
+            this.cmsContentMenu.Name = "cmsContentMenu";
+            this.cmsContentMenu.Size = new System.Drawing.Size(120, 48);
+            // 
+            // executarToolStripMenuItem
+            // 
+            this.executarToolStripMenuItem.Name = "executarToolStripMenuItem";
+            this.executarToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.executarToolStripMenuItem.Text = "Executar";
+            this.executarToolStripMenuItem.Click += new System.EventHandler(this.ExecutarToolStripMenuItem_Click);
+            // 
+            // fecharToolStripMenuItem
+            // 
+            this.fecharToolStripMenuItem.Name = "fecharToolStripMenuItem";
+            this.fecharToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
+            this.fecharToolStripMenuItem.Text = "Fechar";
+            this.fecharToolStripMenuItem.Click += new System.EventHandler(this.BtnFechar_Click);
             // 
             // FormMain
             // 
@@ -222,6 +257,7 @@
             this.Text = "Form1";
             this.pnlEsquerdo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
+            this.cmsContentMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -241,6 +277,10 @@
         private Tarefas pnTarefas;
         private Painel pnPainel;
         private System.Windows.Forms.Panel pnlIndicador;
+        private System.Windows.Forms.ContextMenuStrip cmsContentMenu;
+        private System.Windows.Forms.ToolStripMenuItem executarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fecharToolStripMenuItem;
+        public System.Windows.Forms.NotifyIcon icnCertwebSystemTray;
     }
 }
 
