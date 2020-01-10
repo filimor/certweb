@@ -32,6 +32,7 @@
             this.flpLinks = new System.Windows.Forms.FlowLayoutPanel();
             this.lblLinks = new System.Windows.Forms.Label();
             this.btnExecutar = new System.Windows.Forms.Button();
+            this.prgProgressBar = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // flpLinks
@@ -67,11 +68,21 @@
             this.btnExecutar.UseVisualStyleBackColor = true;
             this.btnExecutar.Click += new System.EventHandler(this.BtnExecutar_Click);
             // 
+            // prgProgressBar
+            // 
+            this.prgProgressBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            this.prgProgressBar.Location = new System.Drawing.Point(554, 368);
+            this.prgProgressBar.Name = "prgProgressBar";
+            this.prgProgressBar.Size = new System.Drawing.Size(165, 17);
+            this.prgProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.prgProgressBar.TabIndex = 8;
+            // 
             // Tarefas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.prgProgressBar);
             this.Controls.Add(this.btnExecutar);
             this.Controls.Add(this.flpLinks);
             this.Controls.Add(this.lblLinks);
@@ -87,5 +98,6 @@
         private System.Windows.Forms.FlowLayoutPanel flpLinks;
         private System.Windows.Forms.Label lblLinks;
         private System.Windows.Forms.Button btnExecutar;
+        private System.Windows.Forms.ProgressBar prgProgressBar;
     }
 }

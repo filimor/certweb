@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace Certweb
 {
@@ -57,22 +58,44 @@ namespace Certweb
             }
         }
 
-        private void BtnExecutar_Click(object sender, System.EventArgs e)
+        private void Executar()
         {
-            var sw = new Stopwatch();
 
+            var sw = new Stopwatch();
             sw.Start();
-            foreach (Link link in GerenciadorDeLinks.LerLinks())
+
+            List<Link> Lista = GerenciadorDeLinks.LerLinks();
+            int TotalLinks = Lista.Count;
+            int LinkProcessamentoAtual = 0;
+            
+            foreach (Link link in Lista)
             {
                 GerenciadorDeAcesso.AcessarLink(link.Url);
+                LinkProcessamentoAtual++;
+                //int Porcentagem = LinkProcessamentoAtual / TotalLinks * 100;
+
+                if (InvokeRequired)
+                {
+                    Invoke(new Action(() => prgProgressBar.Value = LinkProcessamentoAtual / TotalLinks * 100));
+                     
+                }
             }
             sw.Stop();
 
             Painel.Modelo.TempoDecorrido = sw.Elapsed;
             Painel.Modelo.UltimaExecucao = DateTime.Now;
 
-            _painel.AtualizarTextoTela();
+            if (_painel.InvokeRequired)
+            {
+                Invoke(new Action(() => _painel.AtualizarTextoTela()));
+
+            }
             MessageBox.Show("Sucesso!");
+        }
+
+        private void BtnExecutar_Click(object sender, System.EventArgs e)
+        {
+            new Thread(Executar).Start();
         }
     }
 }
