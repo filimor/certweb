@@ -54,8 +54,8 @@
             // 
             // pnlSuperior
             // 
-            resources.ApplyResources(this.pnlSuperior, "pnlSuperior");
             this.pnlSuperior.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.pnlSuperior, "pnlSuperior");
             this.pnlSuperior.Name = "pnlSuperior";
             this.pnlSuperior.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PnlSuperior_MouseDown);
             this.pnlSuperior.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PnlSuperior_MouseMove);
@@ -63,19 +63,19 @@
             // 
             // pnlEsquerdo
             // 
-            resources.ApplyResources(this.pnlEsquerdo, "pnlEsquerdo");
             this.pnlEsquerdo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.pnlEsquerdo.Controls.Add(this.btnSobre);
             this.pnlEsquerdo.Controls.Add(this.btnLink);
             this.pnlEsquerdo.Controls.Add(this.btnTarefas);
             this.pnlEsquerdo.Controls.Add(this.btnPainel);
             this.pnlEsquerdo.Controls.Add(this.pnlIndicador);
+            resources.ApplyResources(this.pnlEsquerdo, "pnlEsquerdo");
             this.pnlEsquerdo.Name = "pnlEsquerdo";
             // 
             // btnSobre
             // 
-            resources.ApplyResources(this.btnSobre, "btnSobre");
             this.btnSobre.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnSobre, "btnSobre");
             this.btnSobre.ForeColor = System.Drawing.Color.White;
             this.btnSobre.Name = "btnSobre";
             this.btnSobre.UseVisualStyleBackColor = true;
@@ -83,8 +83,8 @@
             // 
             // btnLink
             // 
-            resources.ApplyResources(this.btnLink, "btnLink");
             this.btnLink.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnLink, "btnLink");
             this.btnLink.ForeColor = System.Drawing.Color.White;
             this.btnLink.Name = "btnLink";
             this.btnLink.UseVisualStyleBackColor = true;
@@ -92,8 +92,8 @@
             // 
             // btnTarefas
             // 
-            resources.ApplyResources(this.btnTarefas, "btnTarefas");
             this.btnTarefas.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnTarefas, "btnTarefas");
             this.btnTarefas.ForeColor = System.Drawing.Color.White;
             this.btnTarefas.Name = "btnTarefas";
             this.btnTarefas.UseVisualStyleBackColor = true;
@@ -101,8 +101,8 @@
             // 
             // btnPainel
             // 
-            resources.ApplyResources(this.btnPainel, "btnPainel");
             this.btnPainel.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnPainel, "btnPainel");
             this.btnPainel.ForeColor = System.Drawing.Color.White;
             this.btnPainel.Name = "btnPainel";
             this.btnPainel.UseVisualStyleBackColor = true;
@@ -110,8 +110,8 @@
             // 
             // pnlIndicador
             // 
-            resources.ApplyResources(this.pnlIndicador, "pnlIndicador");
             this.pnlIndicador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
+            resources.ApplyResources(this.pnlIndicador, "pnlIndicador");
             this.pnlIndicador.Name = "pnlIndicador";
             // 
             // picLogo
@@ -122,59 +122,59 @@
             // 
             // btnFechar
             // 
-            resources.ApplyResources(this.btnFechar, "btnFechar");
             this.btnFechar.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnFechar, "btnFechar");
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.BtnFechar_Click);
             // 
             // icnCertwebSystemTray
             // 
-            resources.ApplyResources(this.icnCertwebSystemTray, "icnCertwebSystemTray");
             this.icnCertwebSystemTray.ContextMenuStrip = this.cmsContentMenu;
+            resources.ApplyResources(this.icnCertwebSystemTray, "icnCertwebSystemTray");
             // 
             // cmsContentMenu
             // 
-            resources.ApplyResources(this.cmsContentMenu, "cmsContentMenu");
             this.cmsContentMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.executarToolStripMenuItem,
             this.fecharToolStripMenuItem});
             this.cmsContentMenu.Name = "cmsContentMenu";
+            resources.ApplyResources(this.cmsContentMenu, "cmsContentMenu");
             // 
             // executarToolStripMenuItem
             // 
-            resources.ApplyResources(this.executarToolStripMenuItem, "executarToolStripMenuItem");
             this.executarToolStripMenuItem.Name = "executarToolStripMenuItem";
+            resources.ApplyResources(this.executarToolStripMenuItem, "executarToolStripMenuItem");
             this.executarToolStripMenuItem.Click += new System.EventHandler(this.ExecutarToolStripMenuItem_Click);
             // 
             // fecharToolStripMenuItem
             // 
-            resources.ApplyResources(this.fecharToolStripMenuItem, "fecharToolStripMenuItem");
             this.fecharToolStripMenuItem.Name = "fecharToolStripMenuItem";
+            resources.ApplyResources(this.fecharToolStripMenuItem, "fecharToolStripMenuItem");
             this.fecharToolStripMenuItem.Click += new System.EventHandler(this.BtnFechar_Click);
             // 
             // pnLinks
             // 
-            resources.ApplyResources(this.pnLinks, "pnLinks");
             this.pnLinks.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.pnLinks, "pnLinks");
             this.pnLinks.Name = "pnLinks";
             // 
             // pnTarefas
             // 
-            resources.ApplyResources(this.pnTarefas, "pnTarefas");
             this.pnTarefas.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.pnTarefas, "pnTarefas");
             this.pnTarefas.Name = "pnTarefas";
             // 
             // pnPainel
             // 
-            resources.ApplyResources(this.pnPainel, "pnPainel");
             this.pnPainel.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.pnPainel, "pnPainel");
             this.pnPainel.Name = "pnPainel";
             // 
             // pnSobre
             // 
-            resources.ApplyResources(this.pnSobre, "pnSobre");
             this.pnSobre.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.pnSobre, "pnSobre");
             this.pnSobre.Name = "pnSobre";
             // 
             // FormMain
