@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MSG_SUCESSO" xml:space="preserve">
-    <value>Tarefas realizadas com sucesso!</value>
+    <value>Successfull!</value>
   </data>
   <data name="TXT_DESCRICAO" xml:space="preserve">
-    <value>Descrição</value>
+    <value>Description</value>
   </data>
   <data name="TXT_LINK" xml:space="preserve">
     <value>Link</value>

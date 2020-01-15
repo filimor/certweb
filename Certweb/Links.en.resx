@@ -117,13 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="MSG_SUCESSO" xml:space="preserve">
-    <value>Tarefas realizadas com sucesso!</value>
+  <data name="btnSalvar.Text" xml:space="preserve">
+    <value>Save</value>
   </data>
-  <data name="TXT_DESCRICAO" xml:space="preserve">
-    <value>Descrição</value>
-  </data>
-  <data name="TXT_LINK" xml:space="preserve">
-    <value>Link</value>
+  <data name="txtDescricao.Text" xml:space="preserve">
+    <value>Description</value>
   </data>
 </root>

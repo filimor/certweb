@@ -92,11 +92,20 @@
     <Compile Include="Tarefas.Designer.cs">
       <DependentUpon>Tarefas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormMain.en.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Links.en.resx">
+      <DependentUpon>Links.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Links.resx">
       <DependentUpon>Links.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Painel.en.resx">
+      <DependentUpon>Painel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Painel.resx">
       <DependentUpon>Painel.cs</DependentUpon>
@@ -110,6 +119,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Resource.en.resx" />
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>

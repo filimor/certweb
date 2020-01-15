@@ -94,7 +94,7 @@ namespace Certweb
                 Invoke(new Action(() => _painel.AtualizarTextoTela()));
             }
 
-            _form.icnCertwebSystemTray.ShowBalloonTip(1000, "Certweb", "Tarefas realizadas com sucesso!", ToolTipIcon.Info);
+            _form.icnCertwebSystemTray.ShowBalloonTip(1000, "Certweb", Resource.MSG_SUCESSO, ToolTipIcon.Info);
             // MessageBox.Show("Sucesso!");
         }
 

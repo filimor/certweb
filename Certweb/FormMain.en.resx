@@ -118,161 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnTarefas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 186</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnSobre.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;icnCertwebSystemTray.Name" xml:space="preserve">
-    <value>icnCertwebSystemTray</value>
-  </data>
-  <data name="btnPainel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 54</value>
-  </data>
-  <data name="&gt;&gt;pnLinks.Name" xml:space="preserve">
-    <value>pnLinks</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnPainel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="icnCertwebSystemTray.Visible" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnSobre.Text" xml:space="preserve">
-    <value>          Sobre</value>
-  </data>
-  <data name="btnFechar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>941, 21</value>
-  </data>
-  <data name="&gt;&gt;btnTarefas.Name" xml:space="preserve">
-    <value>btnTarefas</value>
-  </data>
-  <data name="btnFechar.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="pnSobre.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 119</value>
-  </data>
-  <data name="pnTarefas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>735, 477</value>
-  </data>
-  <data name="&gt;&gt;picLogo.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="picLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>247, 14</value>
-  </data>
-  <data name="&gt;&gt;executarToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnFechar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 28</value>
-  </data>
-  <data name="&gt;&gt;picLogo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnPainel.Name" xml:space="preserve">
-    <value>pnPainel</value>
-  </data>
-  <data name="&gt;&gt;fecharToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnSobre.Type" xml:space="preserve">
-    <value>Certweb.Sobre, Certweb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;picLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pnlSuperior.Size" type="System.Drawing.Size, System.Drawing">
-    <value>982, 15</value>
-  </data>
-  <data name="btnTarefas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 54</value>
-  </data>
-  <data name="btnTarefas.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="btnSobre.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="pnlIndicador.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 17</value>
-  </data>
-  <data name="&gt;&gt;btnTarefas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pnlSuperior.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;pnTarefas.Name" xml:space="preserve">
-    <value>pnTarefas</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;pnlEsquerdo.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pnlSuperior.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pnlEsquerdo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="btnLink.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 15.75pt</value>
-  </data>
-  <data name="&gt;&gt;pnlIndicador.Parent" xml:space="preserve">
-    <value>pnlEsquerdo</value>
-  </data>
-  <data name="btnPainel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;pnPainel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="pnlSuperior.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnSobre.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 494</value>
-  </data>
-  <data name="btnPainel.Text" xml:space="preserve">
-    <value>          Painel</value>
-  </data>
-  <data name="&gt;&gt;btnLink.Name" xml:space="preserve">
-    <value>btnLink</value>
-  </data>
-  <data name="&gt;&gt;pnPainel.Type" xml:space="preserve">
-    <value>Certweb.Painel, Certweb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;pnSobre.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="btnPainel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 32</value>
-  </data>
-  <data name="&gt;&gt;btnLink.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnTarefas.Parent" xml:space="preserve">
-    <value>pnlEsquerdo</value>
-  </data>
-  <data name="pnLinks.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;btnSobre.Parent" xml:space="preserve">
-    <value>pnlEsquerdo</value>
-  </data>
-  <data name="pnlEsquerdo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 15</value>
-  </data>
   <data name="btnSobre.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAC8AAAAkCAYAAAAZ4GNvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
@@ -291,198 +136,8 @@
         YII=
 </value>
   </data>
-  <data name="&gt;&gt;pnlIndicador.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormMain</value>
-  </data>
-  <data name="btnLink.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;pnlIndicador.Name" xml:space="preserve">
-    <value>pnlIndicador</value>
-  </data>
-  <data name="&gt;&gt;pnlSuperior.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="fecharToolStripMenuItem.Text" xml:space="preserve">
-    <value>Fechar</value>
-  </data>
-  <data name="pnPainel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 21</value>
-  </data>
-  <data name="btnLink.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 54</value>
-  </data>
-  <data name="pnSobre.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;pnlEsquerdo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="picLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnLink.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;pnLinks.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;pnlIndicador.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pnlEsquerdo.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btnPainel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="pnTarefas.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;pnTarefas.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnSobre.Name" xml:space="preserve">
-    <value>pnSobre</value>
-  </data>
-  <data name="btnPainel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 15.75pt</value>
-  </data>
-  <data name="&gt;&gt;btnSobre.Name" xml:space="preserve">
-    <value>btnSobre</value>
-  </data>
-  <data name="&gt;&gt;btnFechar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;icnCertwebSystemTray.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnSobre.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;btnTarefas.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="executarToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
-  </data>
-  <data name="&gt;&gt;pnTarefas.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="icnCertwebSystemTray.Text" xml:space="preserve">
-    <value>Certweb</value>
-  </data>
-  <data name="pnlIndicador.Size" type="System.Drawing.Size, System.Drawing">
-    <value>11, 81</value>
-  </data>
-  <data name="btnSobre.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 15.75pt</value>
-  </data>
-  <data name="btnPainel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnTarefas.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAC8AAAAsCAYAAAD1s+ECAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
-        6wAACusBgosNWgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAOrSURBVGhD
-        1dlJaBRBFMZx9yXu+xI3EMWDgkvc8KAont0Ooqh48CR4URRBLyLiQfGioHjQgwt6EDyIiDsKnhREEIyC
-        grsg4r7L+P2TPFNW3mQqPcMk8+CXzLzurnkz3dVdXd0ul8ulWirbolyrcpOOCXJbPskq6STk+T9JZshU
-        mVZGU+IiPRReK2GsEJaNkockFD/K7HtY5FDpEbzHeHkgYTyT+WLL30urhBU5Qu7KMenYkPN+8ccyRWy7
-        IXJKbsoVuVpGlylgrtwQiz3CMXWn7l1jPBGObSvc9JK+0jsDtuufUT8+fLeE8Ufe1b/8FxQ+XeLC2UsT
-        pUbYI3TaQmw9fiC+eNxmMv60l41C0V48lTnSZGOhw3IoEb9bwGK9eO0mCd9slzheykwJ1wuNk2I67Fbx
-        2k0SJ3aIxQuZJfE6ITrsCbkml4VOWwjrWadbIl67SbzkPuF0SEf2lseqhM7XswU41tFBvDaTeMnOwuHg
-        LWtT3GSlcJOVwk1WCjdZKdxkHmOk0KmzrNykY5Aw+Hot8xpy4Oo8UIbJYOG8Xy6DwwLzYajMhcXijSwU
-        lg2XW/JKuDY8L6ewSC42Nhw2/JoXJIwPYlfGsfJWWiWsSIamZ2RnkONQuSRhUPgisXWqhaHBI2Hsz11V
-        udRSwGQ5KRYbZKScr3vXGNy/LhYr3PQTjnv+p6gbizegr/BZWVTz4fsljG9yr/7lv/giyyQuHOw19lJ8
-        s9CcAcIX9tpLxh9OgQclX3yW5dJkYwkPG2/XNodt1ojXbhJ70UUOSxwfZaX8t1Gg2A67Wbx2k4RvuspR
-        saDwQr9MllMl67E+VovXbpI4wRdgNoB72JSGw4sUFw6uCYXYemzTTbx2k3hJzgILolyb5CYrhZusFG6y
-        UrjJSuEm8+BunzlNb1mrcJMOLmKn5b7EMwtZpj5KoSosIh/mVo6IBeMeu6NiyHxcWjLpVCoX40JjjO+9
-        YcNaYXmx031FhRXZXZgpWxfkOFQOSRhMxm4SDhXWyTrRWgq/KIAh7S4hvgoPzvgyB0gE8Uso3L4cskxx
-        h5jvn51RDQXslTAYOJ0Tvp0Fr+PCDZ2nj9j8Ywo6ONsUPVfJJP9ZaS62SJONhQ7LXdh14ZaRTlsI6zFD
-        zDbenVkye8HdDT3Yi3yFgwdq3NdmDZ4JeO0mCd8wmuTXCKNQ46PFHrrxePFnAtaj/3AoluzJCNgDHO9E
-        ylMLe4jM0xM6Lc+tCrH12Kao+1gvScM8EbTTYRuVa/cXEDxoh33HwJsAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="&gt;&gt;btnFechar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnPainel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>735, 575</value>
-  </data>
-  <data name="&gt;&gt;pnSobre.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnPainel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlEsquerdo.Name" xml:space="preserve">
-    <value>pnlEsquerdo</value>
-  </data>
-  <data name="btnTarefas.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;pnLinks.Type" xml:space="preserve">
-    <value>Certweb.Links, Certweb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnSobre.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlSuperior.Name" xml:space="preserve">
-    <value>pnlSuperior</value>
-  </data>
-  <data name="&gt;&gt;btnSobre.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pnPainel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnLink.Parent" xml:space="preserve">
-    <value>pnlEsquerdo</value>
-  </data>
-  <data name="btnSobre.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="cmsContentMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 48</value>
-  </data>
-  <data name="btnTarefas.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btnLink.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 340</value>
-  </data>
-  <data name="&gt;&gt;btnPainel.Parent" xml:space="preserve">
-    <value>pnlEsquerdo</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pnlIndicador.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="executarToolStripMenuItem.Text" xml:space="preserve">
-    <value>Executar</value>
-  </data>
-  <data name="btnTarefas.Text" xml:space="preserve">
-    <value>          Tarefas</value>
-  </data>
-  <data name="btnTarefas.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 15.75pt</value>
-  </data>
-  <data name="pnTarefas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 119</value>
-  </data>
-  <data name="pnLinks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>735, 477</value>
-  </data>
-  <data name="btnFechar.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;cmsContentMenu.Name" xml:space="preserve">
-    <value>cmsContentMenu</value>
+  <data name="btnSobre.Text" xml:space="preserve">
+    <value>          About</value>
   </data>
   <data name="btnLink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -511,32 +166,30 @@
         AKnnuNQXi0SyAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnSobre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 54</value>
+  <data name="btnTarefas.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAC8AAAAsCAYAAAD1s+ECAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
+        6wAACusBgosNWgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAOrSURBVGhD
+        1dlJaBRBFMZx9yXu+xI3EMWDgkvc8KAont0Ooqh48CR4URRBLyLiQfGioHjQgwt6EDyIiDsKnhREEIyC
+        grsg4r7L+P2TPFNW3mQqPcMk8+CXzLzurnkz3dVdXd0ul8ulWirbolyrcpOOCXJbPskq6STk+T9JZshU
+        mVZGU+IiPRReK2GsEJaNkockFD/K7HtY5FDpEbzHeHkgYTyT+WLL30urhBU5Qu7KMenYkPN+8ccyRWy7
+        IXJKbsoVuVpGlylgrtwQiz3CMXWn7l1jPBGObSvc9JK+0jsDtuufUT8+fLeE8Ufe1b/8FxQ+XeLC2UsT
+        pUbYI3TaQmw9fiC+eNxmMv60l41C0V48lTnSZGOhw3IoEb9bwGK9eO0mCd9slzheykwJ1wuNk2I67Fbx
+        2k0SJ3aIxQuZJfE6ITrsCbkml4VOWwjrWadbIl67SbzkPuF0SEf2lseqhM7XswU41tFBvDaTeMnOwuHg
+        LWtT3GSlcJOVwk1WCjdZKdxkHmOk0KmzrNykY5Aw+Hot8xpy4Oo8UIbJYOG8Xy6DwwLzYajMhcXijSwU
+        lg2XW/JKuDY8L6ewSC42Nhw2/JoXJIwPYlfGsfJWWiWsSIamZ2RnkONQuSRhUPgisXWqhaHBI2Hsz11V
+        udRSwGQ5KRYbZKScr3vXGNy/LhYr3PQTjnv+p6gbizegr/BZWVTz4fsljG9yr/7lv/giyyQuHOw19lJ8
+        s9CcAcIX9tpLxh9OgQclX3yW5dJkYwkPG2/XNodt1ojXbhJ70UUOSxwfZaX8t1Gg2A67Wbx2k4RvuspR
+        saDwQr9MllMl67E+VovXbpI4wRdgNoB72JSGw4sUFw6uCYXYemzTTbx2k3hJzgILolyb5CYrhZusFG6y
+        UrjJSuEm8+BunzlNb1mrcJMOLmKn5b7EMwtZpj5KoSosIh/mVo6IBeMeu6NiyHxcWjLpVCoX40JjjO+9
+        YcNaYXmx031FhRXZXZgpWxfkOFQOSRhMxm4SDhXWyTrRWgq/KIAh7S4hvgoPzvgyB0gE8Uso3L4cskxx
+        h5jvn51RDQXslTAYOJ0Tvp0Fr+PCDZ2nj9j8Ywo6ONsUPVfJJP9ZaS62SJONhQ7LXdh14ZaRTlsI6zFD
+        zDbenVkye8HdDT3Yi3yFgwdq3NdmDZ4JeO0mCd8wmuTXCKNQ46PFHrrxePFnAtaj/3AoluzJCNgDHO9E
+        ylMLe4jM0xM6Lc+tCrH12Kao+1gvScM8EbTTYRuVa/cXEDxoh33HwJsAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="btnLink.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="picLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 99</value>
-  </data>
-  <data name="&gt;&gt;btnPainel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;btnFechar.Name" xml:space="preserve">
-    <value>btnFechar</value>
-  </data>
-  <data name="&gt;&gt;pnlSuperior.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnLink.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pnTarefas.Type" xml:space="preserve">
-    <value>Certweb.Tarefas, Certweb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;fecharToolStripMenuItem.Name" xml:space="preserve">
-    <value>fecharToolStripMenuItem</value>
+  <data name="btnTarefas.Text" xml:space="preserve">
+    <value>          Tasks</value>
   </data>
   <data name="btnPainel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -562,32 +215,8 @@
         wildXQPZ941Jgy1heWw1mf231AppsCVcC2RLuZYYm/EPoz7vcYUD6Z8AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="&gt;&gt;pnLinks.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnPainel.Name" xml:space="preserve">
-    <value>btnPainel</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>982, 608</value>
-  </data>
-  <data name="btnFechar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 14.25pt</value>
-  </data>
-  <data name="&gt;&gt;btnFechar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnLink.Text" xml:space="preserve">
-    <value>          Link</value>
-  </data>
-  <data name="btnTarefas.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;picLogo.Name" xml:space="preserve">
-    <value>picLogo</value>
-  </data>
-  <data name="picLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="btnPainel.Text" xml:space="preserve">
+    <value>          Panel</value>
   </data>
   <data name="picLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -667,9 +296,6 @@
         AKRDMAFIh2ACkA7BBCAdgglAOgQTgHQIJgDpEEwA0iGYAKRDMAFIh2ACkA7BBCAdgglAOgQTgGRer/8C
         1aYCU4kPb8QAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="pnSobre.Size" type="System.Drawing.Size, System.Drawing">
-    <value>735, 477</value>
   </data>
   <data name="icnCertwebSystemTray.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2337,43 +1963,4 @@
         AAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="&gt;&gt;btnLink.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnFechar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;cmsContentMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;executarToolStripMenuItem.Name" xml:space="preserve">
-    <value>executarToolStripMenuItem</value>
-  </data>
-  <data name="pnPainel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="pnlEsquerdo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 593</value>
-  </data>
-  <data name="fecharToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
-  </data>
-  <data name="pnlSuperior.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;pnlEsquerdo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pnLinks.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 119</value>
-  </data>
-  <metadata name="cmsContentMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>192, 17</value>
-  </metadata>
-  <metadata name="icnCertwebSystemTray.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

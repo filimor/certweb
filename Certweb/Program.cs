@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Globalization;
+using System.Threading;
 
 namespace Certweb
 {
@@ -11,6 +13,8 @@ namespace Certweb
         [STAThread]
         private static void Main()
         {
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("en");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormMain());

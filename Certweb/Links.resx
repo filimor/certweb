@@ -117,4 +117,166 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtDescricao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 37</value>
+  </data>
+  <data name="flpLinks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>698, 281</value>
+  </data>
+  <data name="txtDescricao.Text" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.Name" xml:space="preserve">
+    <value>txtDescricao</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;flpLinks.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblLinks.Text" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtDescricao.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtDescricao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 15</value>
+  </data>
+  <data name="flpLinks.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Name" xml:space="preserve">
+    <value>btnSalvar</value>
+  </data>
+  <data name="btnSalvar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 68</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSalvar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSalvar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblLinks.Name" xml:space="preserve">
+    <value>lblLinks</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="flpLinks.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="&gt;&gt;txtLink.Name" xml:space="preserve">
+    <value>txtLink</value>
+  </data>
+  <data name="&gt;&gt;flpLinks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLinks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLinks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 78</value>
+  </data>
+  <data name="&gt;&gt;flpLinks.Name" xml:space="preserve">
+    <value>flpLinks</value>
+  </data>
+  <data name="&gt;&gt;lblLinks.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLinks.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 37</value>
+  </data>
+  <data name="&gt;&gt;flpLinks.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSalvar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="lblLinks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 102</value>
+  </data>
+  <data name="btnSalvar.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="txtLink.Text" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="flpLinks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 183</value>
+  </data>
+  <data name="flpLinks.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtLink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtLink.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLinks.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 48pt</value>
+  </data>
+  <data name="txtLink.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 15</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLinks.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDescricao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 18pt</value>
+  </data>
+  <data name="&gt;&gt;lblLinks.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtLink.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 18pt</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSalvar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 33</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>735, 477</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
 </root>

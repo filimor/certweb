@@ -117,13 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="MSG_SUCESSO" xml:space="preserve">
-    <value>Tarefas realizadas com sucesso!</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
   </data>
-  <data name="TXT_DESCRICAO" xml:space="preserve">
-    <value>Descrição</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Count</value>
   </data>
-  <data name="TXT_LINK" xml:space="preserve">
-    <value>Link</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>task</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 20</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Time elapsed</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Last execution</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Errors occoured</value>
   </data>
 </root>

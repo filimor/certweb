@@ -61,6 +61,15 @@ namespace Certweb {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Tarefas realizadas com sucesso!.
+        /// </summary>
+        internal static string MSG_SUCESSO {
+            get {
+                return ResourceManager.GetString("MSG_SUCESSO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Descrição.
         /// </summary>
         internal static string TXT_DESCRICAO {
