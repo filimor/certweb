@@ -19,7 +19,10 @@ namespace Certweb
         public void QuantidadeLinks()
         {
             List<Link> lista = GerenciadorDeLinks.LerLinks();
-            lblQuantidade.Text = lista.Count.ToString();
+            if (lista != null)
+            {
+                lblQuantidade.Text = lista.Count.ToString();
+            }
         }
 
         public void AtualizarTextoTela()
@@ -27,6 +30,10 @@ namespace Certweb
             lblErros.Text = Painel.Modelo.QuantidadeErros.ToString();
             lblTempoDecorrido.Text = Painel.Modelo.TempoDecorrido.ToString("ss") + "s";
             lblUltimaExecucao.Text = Painel.Modelo.UltimaExecucao.ToString("HH:mm");
+        }
+
+        private void Painel_Load(object sender, System.EventArgs e)
+        {
         }
     }
 }

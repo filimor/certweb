@@ -130,6 +130,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblQuantidade);
             this.Name = "Painel";
+            this.Load += new System.EventHandler(this.Painel_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -114,6 +114,7 @@ namespace Certweb
             {
                 LinkEmEdicao.Descricao = txtDescricao.Text;
                 LinkEmEdicao.Url = txtLink.Text;
+                LinkEmEdicao = null;
             }
 
             txtDescricao.Text = Resource.TXT_DESCRICAO;

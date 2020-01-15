@@ -24,12 +24,9 @@ namespace Certweb.Services
             if (ListaLinks == null)
             {
                 string conteudoArquivo = GerenciadorDeArquivos.Ler(NomeArquivo);
-                ListaLinks = conteudoArquivo != null
-                    ? JsonConvert.DeserializeObject<List<Link>>(conteudoArquivo)
-                    : new List<Link>
-                    {
-                        new Link("Google", "www.google.com")
-                    };
+                ListaLinks = conteudoArquivo != null ?
+                    JsonConvert.DeserializeObject<List<Link>>(conteudoArquivo) :
+                    new List<Link>();
             }
             return ListaLinks;
         }
